@@ -50,7 +50,7 @@ const BookList = () => {
                   src="https://4.bp.blogspot.com/-7OHSFmygfYQ/VtLSb1xe8kI/AAAAAAAABjI/FxaRp5xW2JQ/s320/logo.png"
                   class="fostrap-logo"
                 />
-                <h1 class="heading">Buy Your favorite</h1>
+                <a href="http://hamdyadam.pythonanywhere.com/admin/"><h1 class="heading">ADD Product Dashboard</h1></a>
               </div>
               <div class="content">
                 <div class="container">
