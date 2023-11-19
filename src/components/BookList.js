@@ -7,13 +7,13 @@ const BookList = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    console.log(books, "ssssssssssssss");
+   
     fetchBooks();
-    console.log(books, "ssssssssssssss");
+   
   }, []);
 
   const fetchBooks = async () => {
-    const response = await axios.get("http://hamdyadam.pythonanywhere.com//api/books/");
+    const response = await axios.get("https://hamdyadam.pythonanywhere.com//api/books/");
     setBooks(response.data);
     console.log(books, response.data);
   };
